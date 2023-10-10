@@ -28,7 +28,7 @@ enhancements in the workflow and user interface.
 * AnyChart
 * HTML2PDF
 
-# Other Requirements
+## Other Requirements
 * docopt==0.6.2
 * Flask==2.1.2
 * mock==4.0.3
