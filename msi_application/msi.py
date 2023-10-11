@@ -2,7 +2,8 @@ import numpy
 
 class MSI:
     def __init__(self):
-        self.matrix = numpy.loadtxt(open("/home/multidsymptomindex/mysite/matrix.csv", "rb"), delimiter=",", skiprows=1)
+        # Update the path to matrix.csv
+        self.matrix = numpy.loadtxt(open("/path/to/matrix.csv", "rb"), delimiter=",", skiprows=1)
 
     def get_value(self, symptom, frequency):
         symptom_index = {"sharp": 0,
